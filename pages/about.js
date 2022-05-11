@@ -16,7 +16,7 @@ const About =({data})=>{
 }
 
 export const getStaticProps=async()=>{
-    const res= await fetch('https://json.extendsclass.com/bin/d05eae7cd232');
+    const res= await fetch('https://api.github.com/repos/preactjs/preact');
     const json=await res.json();
     return{
      props:{
