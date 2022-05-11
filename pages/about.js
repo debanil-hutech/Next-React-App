@@ -18,7 +18,6 @@ const About =({data})=>{
 export const getStaticProps=async()=>{
     const res= await fetch('https://api.github.com/repos/preactjs/preact');
     const json=await res.json();
-    console.log(json);
     return{
      props:{
          data:json.subscribers_count
