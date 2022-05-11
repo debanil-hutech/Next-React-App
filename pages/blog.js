@@ -9,7 +9,7 @@ const Blog =(pageProps)=>{
             alt='Added Changes'
             width={200}
             height={200}
-            style={{borderRadius:'10px', marginLeft:'20px'}}
+            style={{borderRadius:'10px', width: '100%'}}
             />
         </div>
     )
